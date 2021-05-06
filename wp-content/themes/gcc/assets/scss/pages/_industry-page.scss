@@ -1,0 +1,98 @@
+/* Industries page style */
+
+
+.industries--grid {
+  margin-top: 280px;
+}
+.industries-title {
+  height: 40px;
+  width: 390px;
+  color: #161616;
+  font-family: "IBM Plex Sans";
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: 40px;
+}
+
+.industries-pr {
+  margin-top: 2rem;
+  height: 88px;
+  width: 378px;
+  color: #525252;
+  font-family: "IBM Plex Sans";
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 22px;
+}
+
+.industries-tile {
+  height: 48px;
+  width: 448px;
+  margin-bottom: 1rem;
+  text-decoration: none;
+}
+
+.industries-tile--wrap {
+  display: flex;
+}
+
+.industries-tile--text {
+  margin-left: 17px;
+  margin-top: 9px;
+  height: 18px;
+  color: #161616;
+  font-family: "IBM Plex Sans";
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.16px;
+  line-height: 18px;
+}
+
+.industries-tile:hover {
+  background-color: #e5e5e5 !important;
+}
+
+.industries-tile--icon {
+  width: 32px;
+  height: 32px;
+}
+.industries-col-left {
+  margin-left: 10rem;
+}
+
+/* tile link btn */
+.btn-Launch {
+  height: 64px;
+  width: 528px;
+  margin-bottom: 1rem;
+}
+
+.btn-Launch__wrap {
+  display: flex;
+}
+
+.btn-Launch__text {
+  /* margin-left: 17px; */
+  margin-top: 9px;
+  height: 18px;
+  width: 470px;
+  color: #161616;
+  font-family: "IBM Plex Sans";
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.16px;
+  line-height: 18px;
+}
+.btn-Launch {
+  text-decoration: none;
+}
+.btn-Launch:hover {
+  background-color: #e5e5e5 !important;
+}
+
+.btn-Launch__icon {
+  margin-top: 8px;
+  width: 16px;
+  height: 16px;
+  /* background-color: #0f62fe !important; */
+}

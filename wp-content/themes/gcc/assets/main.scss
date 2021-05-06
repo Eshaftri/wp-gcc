@@ -1,0 +1,26 @@
+$feature-flags: (
+  grid-columns-16: true,
+);
+// Global styles
+@import "carbon-components/scss/globals/scss/vendor/@carbon/type/scss/font-family.scss";
+@import "carbon-components/scss/globals/scss/vendor/@carbon/layout/scss/breakpoint.scss";
+@import "carbon-components/scss/globals/scss/typography.scss";
+@import "carbon-components/scss/globals/scss/vars.scss";
+
+.site-header {
+  margin-top: 3rem;
+}
+
+.site-main {
+  margin-top: 5rem;
+}
+
+@import "/assets/scss//layouts/footer";
+@import "/assets/scss/pages/industry-page";
+@import "/assets/scss/pages/industry-landing-page";
+@import "/assets/scss/pages/journey-page";
+@import "/assets/scss/pages/asset-page";
+@import "/assets/scss/pages/front-page";
+@import "/assets/scss/pages/sme-page";
+@import "/assets/scss/pages/search-page";
+@import "/assets/scss/layouts/asset-card";

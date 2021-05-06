@@ -1,0 +1,23 @@
+.footer {
+  height: 36rem;
+  border-top: solid 1px $ui-03;
+
+  &-wrap {
+    width: 33rem;
+    margin-top: 6rem;
+    margin-left: 7rem;
+  }
+
+  &-title {
+    margin-bottom: $spacing-05;
+    @include carbon--type-style("productive-heading-03");
+  }
+
+  &-parag {
+    @include carbon--type-style("body-short-02");
+  }
+
+  &-icon {
+    margin-top: 8.5rem;
+  }
+}

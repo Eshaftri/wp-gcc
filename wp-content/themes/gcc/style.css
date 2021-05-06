@@ -1,0 +1,283 @@
+/*
+Theme Name: GCC
+Theme URI: https://wordpress.org/themes/gcc/
+Author: Mohamed Eshaftri
+Author URI: https://github.com/Eshaftri
+Description: WordPress Theme
+Requires at least: 5.3
+Tested up to: 5.6
+Requires PHP: 5.6
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: gcc
+Tags: one-column, accessibility-ready, custom-colors, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, block-patterns, rtl-language-support, sticky-post, threaded-comments, translation-ready
+
+GCC WordPress Theme, (C) 2020 WordPress.org
+GCC is distributed under the terms of the GNU GPL.
+*/
+
+/* Asset page */
+
+.asset-page {
+  font-family: "IBM Plex Sans";
+}
+
+.asset-page__header {
+  margin: 80px 32px 0 32px;
+}
+
+.asset-page__title {
+  margin-top: 8px;
+  width: 456px;
+  color: #161616;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: 40px;
+  margin-bottom: 40px;
+}
+
+.asset-page__media img {
+  width: 608px;
+}
+
+.asset-page__caption {
+  color: #525252;
+  font-family: "IBM Plex Sans";
+  font-size: 12px;
+  letter-spacing: 0.32px;
+  line-height: 16px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.asset-page__section-header {
+  color: #161616;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 28px;
+  margin-bottom: 10px;
+}
+
+.asset-page__description {
+  height: 264px;
+  width: 608px;
+  color: #525252;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 24px;
+}
+
+.asset-page__stats-big {
+  color: #161616;
+  font-size: 28px;
+  letter-spacing: 0;
+  line-height: 36px;
+}
+
+.asset-page__stats-small {
+  color: #161616;
+  font-size: 12px;
+  letter-spacing: 0.32px;
+  line-height: 16px;
+}
+
+.asset-page__collection-btns {
+  font-size: 12px;
+  margin-top: 48px;
+}
+
+.asset-page__advisory {
+  color: #6f6f6f;
+  font-family: "IBM Plex Sans";
+  font-size: 12px;
+  letter-spacing: 0.32px;
+  line-height: 16px;
+  margin-top: 10px;
+}
+
+.asset-page__maintained-by .logo {
+  display: block;
+  height: 32px;
+  width: 32px;
+  line-height: 32px;
+
+  -moz-border-radius: 16px;
+  border-radius: 16px;
+
+  background-color: blue;
+  color: white;
+  text-align: center;
+  font-size: 1em;
+}
+
+.asset-page__maintained-by .details .who {
+  color: #161616;
+  font-size: 14px;
+  letter-spacing: 0.16px;
+  line-height: 18px;
+}
+.asset-page__maintained-by .details .what {
+  color: #525252;
+  font-family: "IBM Plex Sans";
+  font-size: 12px;
+  letter-spacing: 0.32px;
+  line-height: 16px;
+}
+
+.asset-page__subsection-header {
+  color: #525252;
+  font-size: 12px;
+  letter-spacing: 0.32px;
+  line-height: 16px;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+.asset-page__subsection-values {
+  color: #161616;
+  font-size: 14px;
+  letter-spacing: 0.16px;
+  line-height: 18px;
+}
+
+.asset-page__ratings {
+  border-top: solid 1px #e0e0e0;
+}
+
+.front-page {
+  font-family: "IBM Plex Sans";
+}
+
+.front-page__search-area {
+  /* margin: auto; */
+  /* width: 500px; */
+  padding-top: 25%;
+}
+.front-page__title {
+  color: #161616;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: 40px;
+  width: 448px;
+  margin-bottom: 40px;
+}
+
+.front-page__image {
+  margin-left: 200px;
+}
+
+.fp__section_title {
+  color: #161616;
+  font-family: "IBM Plex Sans";
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 28px;
+  margin-bottom: 20px;
+}
+
+.fp__browse_industries-text {
+  color: #525252;
+  font-size: 14px;
+  letter-spacing: 0.16px;
+  line-height: 18px;
+}
+
+.fp__2col_list {
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+}
+
+.fp__2col_list_assets {
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+  /* width: 288px; */
+}
+
+.fp__asset_tile {
+  padding: 0rem !important;
+  background-color: #f4f4f4;
+  min-height: 460px !important;
+  max-height: 460px !important;
+  height: 100%;
+}
+
+.fp__asset_header {
+  color: #161616;
+  font-family: "IBM Plex Sans";
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 22px;
+  margin: 10px;
+}
+
+.fp__asset_thumbnail img {
+  width: auto;
+  height: 298px;
+}
+
+.fp__asset_description {
+  padding-top: 0.75rem;
+  padding-left: 0.75rem;
+  min-height: 80px;
+  font-size: 14px;
+  letter-spacing: 0.16px;
+  line-height: 18px;
+}
+
+.fp__asset_fake_link {
+  padding-left: 0.75rem;
+  padding-bottom: 0.75rem;
+  color: #0f62fe;
+  font-size: 0.875 rem;
+  font-weight: 400;
+}
+
+/* Search page */
+.sp__header {
+  color: #161616;
+  font-family: "IBM Plex Sans";
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: 40px;
+  text-align: left;
+  padding-bottom: 2rem;
+}
+
+.sp__filter_header {
+  color: #161616;
+  font-family: "IBM Plex Sans";
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 28px;
+  padding-bottom: 1rem;
+}
+
+.sp__filter_section_header {
+  color: #525252;
+  font-family: "IBM Plex Sans";
+  font-size: 12px;
+  letter-spacing: 0.32px;
+  line-height: 16px;
+}
+
+.sp__filter_box_label {
+  color: #161616;
+  font-family: "IBM Plex Sans";
+  font-size: 14px;
+  letter-spacing: 0.16px;
+  line-height: 18px;
+}
+
+.sp__asset_tile {
+  padding: 0rem !important;
+  background-color: #f4f4f4;
+  width: 30%;
+}
+
+.sp__asset_thumbnail img {
+  width: 100%;
+}

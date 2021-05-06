@@ -1,0 +1,48 @@
+/* journey post  */
+
+.post-title {
+    margin-left: 32px;
+    margin-top: 64px;
+    height: 28px;
+    width: 263px;
+    color: #161616;
+    font-family: "IBM Plex Sans";
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: 28px;
+  }
+  .journey--grid {
+    margin: 32px 16px 112px 64px;
+  }
+  .journey-post__card {
+    width: 368px;
+    height: 536px;
+  }
+  .journey-post__card img {
+    width: 368px;
+    height: 248px;
+    object-fit: fill;
+    border: solid 1px black;
+  }
+  
+  .journey-post__card-number {
+    margin-top: 32px;
+    height: 40px;
+    width: 28px;
+    color: #161616;
+    font-family: "IBM Plex Sans";
+    font-size: 32px;
+    letter-spacing: 0;
+    line-height: 40px;
+  }
+  
+  .journey-post__card-title {
+    height: 72px;
+    width: 341px;
+    color: #161616;
+    font-family: "IBM Plex Sans";
+    font-size: 14px;
+    letter-spacing: 0.18px;
+    line-height: 18px;
+    font-weight: bold;
+  }

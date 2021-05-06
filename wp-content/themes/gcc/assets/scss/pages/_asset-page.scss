@@ -1,0 +1,177 @@
+/* Asset page */
+
+.asset-page {
+  font-family: "IBM Plex Sans";
+}
+
+.asset-page__header {
+  margin: 80px 32px 0 32px;
+}
+
+.asset-page__title {
+  margin-top: 8px;
+  width: 456px;
+  color: #161616;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: 40px;
+  margin-bottom: 40px;
+}
+
+.asset-page__media img {
+  width: 608px;
+}
+
+.asset-page__caption {
+  color: #525252;
+  font-family: "IBM Plex Sans";
+  font-size: 12px;
+  letter-spacing: 0.32px;
+  line-height: 16px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.asset-page__section-header {
+  color: #161616;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 28px;
+  margin-bottom: 10px;
+}
+
+.asset-page__description {
+  // height: 264px;
+  width: 608px;
+  color: #525252;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 24px;
+}
+
+.asset-page__stats {
+  margin-top: 2rem;
+}
+
+.asset-page__stats-big {
+  color: #161616;
+  font-size: 28px;
+  letter-spacing: 0;
+  line-height: 36px;
+}
+
+.asset-page__stats-small {
+  color: #161616;
+  font-size: 12px;
+  letter-spacing: 0.32px;
+  line-height: 16px;
+}
+
+.asset-page__collection-btns {
+  font-size: 12px;
+  margin-top: 48px;
+}
+
+.asset-page__advisory {
+  color: #6f6f6f;
+  font-family: "IBM Plex Sans";
+  font-size: 12px;
+  letter-spacing: 0.32px;
+  line-height: 16px;
+  margin-top: 10px;
+}
+
+.asset-page__maintained-by {
+  display: flex;
+}
+
+.asset-page__maintained-by .logo {
+  display: block;
+  height: 32px;
+  width: 32px;
+  line-height: 32px;
+
+  -moz-border-radius: 16px;
+  border-radius: 16px;
+
+  background-color: #2068f8;
+  color: white;
+  text-align: center;
+  font-size: 1em;
+}
+
+.asset-page__maintained-by .details {
+  margin-left: 1rem;
+}
+
+.asset-page__maintained-by .details .who {
+  color: #161616;
+  font-size: 14px;
+  letter-spacing: 0.16px;
+  line-height: 18px;
+}
+.asset-page__maintained-by .details .what {
+  color: #525252;
+  font-family: "IBM Plex Sans";
+  font-size: 12px;
+  letter-spacing: 0.32px;
+  line-height: 16px;
+}
+
+.asset-page__subsection-header {
+  color: #525252;
+  font-size: 12px;
+  letter-spacing: 0.32px;
+  line-height: 16px;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+.asset-page__subsection-values {
+  color: #161616;
+  font-size: 14px;
+  letter-spacing: 0.16px;
+  line-height: 18px;
+}
+
+.asset-page__ratings {
+  border-top: solid 1px #e0e0e0;
+}
+
+.ap__sr-tile-wrap {
+  display: flex;
+}
+
+.ap__sr_tile {
+  width: 400px;
+  margin-right: 1rem !important;
+}
+
+.ap__sr-icon {
+  width: 2rem;
+}
+
+.ap__header-buttons {
+  display: flex;
+  // justify-content: space-between;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.ap__asset-type-buttons {
+  padding-right: 2rem;
+  border-right: 1px solid;
+  border-color: #e0e0e0;
+}
+
+.ap__asset-format-buttons {
+  padding-left: 2rem;
+}
+
+// .asset-page__2-col-list {
+//   // column-count: 2;
+//   // column-rule: dotted 1px #333;
+//   list-style-type: "-" !important;
+//   display: list-item !important;
+//   list-style-position: outside !important;
+// }

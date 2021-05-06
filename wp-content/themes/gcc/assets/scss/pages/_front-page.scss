@@ -1,0 +1,117 @@
+.front-page {
+  font-family: "IBM Plex Sans";
+}
+
+.front-page__search-area {
+  /* margin: auto; */
+  /* width: 500px; */
+  padding-top: 25%;
+}
+.front-page__title {
+  color: #161616;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: 40px;
+  width: 448px;
+  margin-bottom: 40px;
+}
+
+.front-page__image {
+  margin-left: 200px;
+}
+
+.fp__section_title {
+  color: #161616;
+  font-family: "IBM Plex Sans";
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 28px;
+  margin-bottom: 20px;
+}
+
+.fp__browse_industries-text {
+  color: #525252;
+  font-size: 14px;
+  letter-spacing: 0.16px;
+  line-height: 18px;
+}
+
+.fp__2col_list {
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+}
+
+.fp__2col_list_assets {
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+  /* width: 288px; */
+}
+
+.fp__asset_tile {
+  padding: 0rem !important;
+  background-color: #f4f4f4;
+  min-height: 460px !important;
+  max-height: 460px !important;
+  height: 100%;
+}
+
+.fp__asset_header {
+  color: #161616;
+  font-family: "IBM Plex Sans";
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 22px;
+  margin: 10px;
+}
+
+.fp__asset_thumbnail img {
+  width: auto;
+  height: 298px;
+}
+
+.fp__asset_description {
+  padding-top: 0.75rem;
+  padding-left: 0.75rem;
+  min-height: 80px;
+  font-size: 14px;
+  letter-spacing: 0.16px;
+  line-height: 18px;
+}
+
+.fp__asset_fake_link {
+  padding-left: 0.75rem;
+  padding-bottom: 0.75rem;
+  color: #0f62fe;
+  font-size: 0.875 rem;
+  font-weight: 400;
+}
+.fb-industries-tile {
+  height: 48px;
+  width: 368px;
+  margin-bottom: 1rem;
+  text-decoration: none;
+}
+
+.fb-industries-tile--wrap {
+  display: flex;
+}
+
+.fb-industries-tile--text {
+  margin-left: 17px;
+  margin-top: 9px;
+  height: 18px;
+  color: #161616;
+  @include carbon--type-style("productive-heading-01");
+}
+
+.fb-industries-tile:hover {
+  background-color: #e5e5e5 !important;
+}
+
+.fb-industries-tile--icon {
+  width: 32px;
+  height: 32px;
+}

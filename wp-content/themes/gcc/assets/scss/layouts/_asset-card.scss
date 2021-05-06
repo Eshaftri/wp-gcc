@@ -1,0 +1,50 @@
+.asset-card--grid {
+  margin: 32px 16px 112px 64px;
+}
+.asset-card {
+  height: 418px;
+  width: 368px;
+
+  img {
+    height: 204px;
+    width: 288px;
+  }
+
+  &__title {
+    @include carbon--type-style("productive-heading-02");
+    font-weight: bold;
+    height: 1rem;
+  }
+
+  &__contant {
+    background-color: $field-01;
+    height: 214px;
+    padding: 1rem;
+    width: 288px;
+  }
+
+  &__description {
+    @include carbon--type-style("body-short-01");
+    height: 90px;
+    margin-top: 38px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 256px;
+  }
+
+  &__read-more {
+    @include carbon--type-style("body-short-01");
+    color: #0f62fe;
+    margin-top: 19px;
+  }
+}
+
+.btn--view-all {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: $spacing-09;
+}
+
+a {
+  text-decoration: none;
+}

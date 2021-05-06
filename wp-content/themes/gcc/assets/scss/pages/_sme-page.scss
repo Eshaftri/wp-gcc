@@ -1,0 +1,129 @@
+.sme-page {
+  margin-top: 80px;
+  margin-bottom: 70px;
+
+  &__row {
+    margin-top: $spacing-07;
+    padding-top: $spacing-07;
+    &-1 {
+      margin-top: $spacing-07;
+      padding-top: $spacing-07;
+      margin-bottom: $spacing-07;
+    }
+    &-2 {
+      margin-bottom: $spacing-07;
+    }
+  }
+
+  &__name {
+    margin-top: $spacing-03;
+    @include carbon--type-style("productive-heading-05");
+  }
+
+  &__title {
+    @include carbon--type-style("body-short-02");
+    color: $icon-02;
+    margin-bottom: $spacing-07;
+    margin-top: $spacing-03;
+  }
+
+  &__position {
+    margin: 4px;
+  }
+
+  &__image img {
+    width: 448px;
+    height: 448px;
+    object-fit: fill;
+  }
+
+  &__author-info {
+    display: flex;
+
+    &--avatar {
+      & img {
+        margin-right: $spacing-05;
+        vertical-align: middle;
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+      }
+
+      &__init {
+        background-color: darkorchid;
+        color: white;
+        font-weight: bold;
+        margin-right: $spacing-05;
+        line-height: 32px;
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        text-align: center;
+      }
+    }
+
+    &--name {
+      @include carbon--type-style("body-short-01");
+    }
+
+    &--email {
+      @include carbon--type-style("helper-text-01");
+      color: #6f6f6f;
+    }
+  }
+
+  &__sect-title {
+    @include carbon--type-style("productive-heading-03");
+    margin-bottom: $spacing-06;
+  }
+
+  &__about {
+    &--parg {
+      @include carbon--type-style("body-long-02");
+    }
+  }
+
+  &__info-title {
+    @include carbon--type-style("label-01");
+    color: $text-02;
+    margin-bottom: $spacing-01;
+  }
+
+  &__info-input {
+    @include carbon--type-style("body-short-01");
+    color: $text-01;
+  }
+
+  &__post-date {
+    @include carbon--type-style("helper-text-01");
+    color: $text-05;
+    margin-top: $spacing-07;
+  }
+
+  &__table {
+    &--row-header {
+      margin-bottom: 7px;
+      margin-top: $spacing-07;
+      padding-top: $spacing-07;
+    }
+    &--row {
+      padding-top: $spacing-05;
+      padding-bottom: 24px;
+    }
+    &--header {
+      @include carbon--type-style("productive-heading-01");
+    }
+    &--data {
+      @include carbon--type-style("body-long-01");
+      a {
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+svg#icon {
+  width: 16px;
+  height: 16px;
+  margin-left: 4px;
+}
